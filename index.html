@@ -15,11 +15,19 @@
 
         <p>Use the buttons below to keep score.</p>
         <article>
-            <h1><span>2</span> to <span>5</span></h1>
+            <h1><span id="score1"></span> to <span id="score2">5</span></h1>
             <label for="select">
                 <H3>Playing to</H3>
+
+                <select type="select" name="select" id="select">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
             </label>
-            <input type="select" name="select">
         </article>
         <button id="player1">+1 Player One</button>
         <button id="player2">+2 Player Two</button>
