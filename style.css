@@ -53,6 +53,10 @@ h1 {
     font-size: 2em;
 }
 
+h3 {
+    display: inline-block;
+}
+
 article {
     /* margin: 10px; */
     flex-basis: 100%;
@@ -64,6 +68,11 @@ article {
 button {
     flex: 1 1 0;
     min-height: 30px;
+}
+
+select {
+    display: inline-block;
+    border-radius: 20px;
 }
 
 button:focus {
@@ -89,12 +98,20 @@ button:nth-of-type(2):active {
 }
 
 button:nth-of-type(3) {
-    background-color: #ff99cc;
+    background-color: #ff6eca;
     border: 1px solid #ffe6f2;
 }
 
 button:nth-of-type(3):active {
-    background-color: #de69a4;
+    background-color: #ffc8e3;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
 }
 
 /* button:focus #player1,
