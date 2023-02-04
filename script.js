@@ -16,26 +16,26 @@ select.addEventListener("input", (e) => {
 
 player1.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log("Player:" + winScore);
+    if (score1 !== winScore) {
+        score1++;
+        scoreSpan1.textContent = score1;
+        if (score1 === winScore) {
+            scoreSpan1.classList.add("win");
+            scoreSpan2.classList.add("lose");
+        }
 
-    score1++;
-    scoreSpan1.textContent = score1;
-    if (score1 === winScore) {
-        scoreSpan1.classList.add("win");
-        scoreSpan2.classList.add("lose");
     }
 });
 
 player2.addEventListener("click", (e) => {
     e.preventDefault();
-
-    console.log("Player:" + winScore);
-
-    score2++;
-    scoreSpan2.textContent = score2;
-    if (score2 === winScore) {
-        scoreSpan2.classList.add("win");
-        scoreSpan1.classList.add("lose");
+    if (score2 !== winScore) {
+        score2++;
+        scoreSpan2.textContent = score2;
+        if (score2 === winScore) {
+            scoreSpan2.classList.add("win");
+            scoreSpan1.classList.add("lose");
+        }
     }
 });
 
