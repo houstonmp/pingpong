@@ -6,6 +6,8 @@
 
 body {
     display: flex;
+    background-image: url('tenniscourt.png');
+    background-repeat: no-repeat;
 }
 
 button {
@@ -36,7 +38,8 @@ button {
 
 section {
     justify-content: center;
-
+    background-color: white;
+    ;
     width: 50%;
     box-shadow: 0 0 5px;
     margin: auto;
@@ -80,30 +83,33 @@ button:focus {
 }
 
 button:nth-of-type(1) {
-    background-color: #ccffcc;
-    border: 1px solid #e6ffe6;
+    background-color: #06d6a0;
+    border: none;
+    /* border: 1px solid #77fcd9; */
 }
 
 button:nth-of-type(1):active {
-    background-color: #94df94;
+    background-color: #52c7a8;
 }
 
 button:nth-of-type(2) {
-    background-color: #66ccff;
-    border: 1px solid #e6f7ff;
+    background-color: #118ab2;
+    border: none;
+    /* border: 1px solid #3faed3; */
 }
 
 button:nth-of-type(2):active {
-    background-color: #4bacdc;
+    background-color: #177290;
 }
 
 button:nth-of-type(3) {
-    background-color: #ff6eca;
-    border: 1px solid #ffe6f2;
+    background-color: #ef476f;
+    border: none;
+    /* border: 1px solid #ffe6f2; */
 }
 
 button:nth-of-type(3):active {
-    background-color: #ffc8e3;
+    background-color: #cb3356;
 }
 
 .win {
