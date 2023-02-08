@@ -39,10 +39,9 @@ button {
 section {
     justify-content: center;
     background-color: white;
-    ;
     width: 50%;
     box-shadow: 0 0 5px;
-    margin: auto;
+    margin: 13vh auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -61,7 +60,6 @@ h3 {
 }
 
 article {
-    /* margin: 10px; */
     flex-basis: 100%;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
